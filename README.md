@@ -89,7 +89,8 @@ Only the `Overall Service Satisfaction` variable has been kept in the final mode
 │   ├── processed_2: 
 │   └── raw: train.csv, test.csv
 ├── models
-│   └── logs
+│   ├── one
+│   └── two
 ├── notebooks
 │   ├── 1_data_preparation
 │   ├── 2_exploratory_data_analysis_and_preprocessing
