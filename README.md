@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/alexandra-pritoula/README">
-    <img src=Images/"runway_airplane.jpg" alt="Logo" width="300" height="300">
+    <img src=Images/runway_airplane.jpg alt="Logo" width="300" height="300">
   </a>
 
 <!-- ABOUT THE PROJECT -->
