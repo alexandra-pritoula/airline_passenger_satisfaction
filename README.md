@@ -83,14 +83,53 @@ Only the `Overall Service Satisfaction` variable has been kept in the final mode
 <!-- CODE STRUCTURE -->
 ## Code Structure
 
-```
-├── data
-│   ├── processed_1: train_preprocessed_1.csv, test_preprocessed_1.csv
-│   ├── processed_2: 
-│   └── raw: train.csv, test.csv
-├── models
-│   ├── one
-│   └── two
+```bash
+├── Data
+│   ├── Preprocessed_1
+│   │   ├── train_preprocessed_1.csv
+│   │   └── test_preprocessed_1.csv
+│   ├── Preprocessed_2
+│   │   ├── train_preprocessed_2.csv
+│   │   └── test_preprocessed_2.csv
+│   ├── Preprocessed_3
+│   │   ├── train_preprocessed_3.csv
+│   │   └── test_preprocessed_3.csv
+│   ├── Preprocessed_4
+│   │   ├── train_preprocessed_4.csv
+│   │   └── test_preprocessed_4.csv
+│   └── Raw
+│   │   ├── train.csv
+│   │   └── test.csv
+├── Images
+│   └── runway_airplane.jpg
+├── Models
+│   ├── Model_1
+│   │   ├── bp_data.csv
+│   │   ├── decision_tree.pkl
+│   │   ├── gradient_boosting.pkl
+│   │   ├── knn.pkl
+│   │   └── random_forest.pkl
+│   ├── Model_2
+│   │   ├── bp_data_2.csv
+│   │   ├── decision_tree_2.pkl
+│   │   ├── gradient_boosting_2.pkl
+│   │   ├── knn_2.pkl
+│   │   └── random_forest_2.pkl
+│   ├── Model_3
+│   │   ├── bp_data_3.csv
+│   │   ├── decision_tree_3.pkl
+│   │   ├── gradient_boosting_3.pkl
+│   │   ├── knn_3.pkl
+│   │   └── random_forest_3.pkl
+│   ├── Model_4
+│   │   ├── bp_data_4.csv
+│   │   ├── decision_tree_4.pkl
+│   │   ├── gradient_boosting_4.pkl
+│   │   ├── knn_4.pkl
+│   │   └── random_forest_4.pkl
+│   ├── Tuned_Models
+│   │   ├── rf_rscv_model.pkl
+│   │   └── rf_gscv_model.pkl
 ├── notebooks
 │   ├── 1_data_preparation
 │   ├── 2_exploratory_data_analysis_and_preprocessing
