@@ -132,7 +132,7 @@ Only the `Overall Service Satisfaction` variable has been kept in the final mode
 │   │   └── rf_gscv_model.pkl
 ├── notebooks
 │   ├── 1_data_preparation
-│   ├── 2_exploratory_data_analysis_and_preprocessing
+│   ├── 2_exploratory_data_analysis
 │   ├── 3_feature_engineering
 │   └── 4_model_training_and_evaluation
 ├── references
