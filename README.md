@@ -74,75 +74,70 @@ Three additional features were created in an attempt to improve predictive perfo
 
 | FEATURE  | DESCRIPTION | PREPROCESSING |
 | --------- | -------- | -------- |
-| ***Total Delay*** | The sum of `Departure Delay in Minutes` and `Arrival Delay in Minutes` | Set as categorical and split into 3 ordered categories 1<2<3 |
-| ***Age Group*** | Binned the `Age` feature into 5 ordered categories | One-hot encoded |
 | ***Overall Service Satisfaction*** | The mean of the service related features for each passenger | Rounded |
+| ***Premium Service*** | A variable indicating whether the overall service was premium | Categorised `Overall Service Satisfaction` into 2 groups, `1` and `2`  |
 
-Only the `Overall Service Satisfaction` variable has been kept in the final model. 
 
 <!-- CODE STRUCTURE -->
 ## Code Structure
 
 ```bash
+
+Airline Passenger Satisfaction Project
 ├── Data
-│   ├── Preprocessed_1
-│   │   ├── train_preprocessed_1.csv
-│   │   └── test_preprocessed_1.csv
-│   ├── Preprocessed_2
-│   │   ├── train_preprocessed_2.csv
-│   │   └── test_preprocessed_2.csv
-│   ├── Preprocessed_3
-│   │   ├── train_preprocessed_3.csv
-│   │   └── test_preprocessed_3.csv
-│   ├── Preprocessed_4
-│   │   ├── train_preprocessed_4.csv
-│   │   └── test_preprocessed_4.csv
-│   └── Raw
+│   ├── Raw
 │   │   ├── train.csv
 │   │   └── test.csv
+│   ├── Preprocessed_1
+│   │   ├── train_preprocessed_1.pkl
+│   │   ├── train_preprocessed_1_dummies.pkl
+│   │   └── test_preprocessed_1.pkl
+│   ├── Feature_Selection
+│   │   └── train_fs.pkl
+│   ├── Feature_Extraction
+│       └── train_oss.pkl
 ├── Images
 │   └── runway_airplane.jpg
 ├── Models
 │   ├── Model_1
-│   │   ├── bp_data.csv
+│   │   ├── bm_data.pkl
+│   │   ├── knn.pkl
 │   │   ├── decision_tree.pkl
 │   │   ├── gradient_boosting.pkl
-│   │   ├── knn.pkl
-│   │   └── random_forest.pkl
+│   │   ├── random_forest.pkl
+│   │   ├── linear_discriminant_analysis.pkl
+│   │   └── logistic_regression.pkl
 │   ├── Model_2
-│   │   ├── bp_data_2.csv
-│   │   ├── decision_tree_2.pkl
-│   │   ├── gradient_boosting_2.pkl
-│   │   ├── knn_2.pkl
-│   │   └── random_forest_2.pkl
+│   │   ├── kf_cv_data.pkl
+│   │   ├── knn.pkl
+│   │   ├── decision_tree.pkl
+│   │   ├── gradient_boosting.pkl
+│   │   └── random_forest.pkl
+│   │   ├── linear_discriminant_analysis.pkl
+│   │   └── logistic_regression.pkl
 │   ├── Model_3
-│   │   ├── bp_data_3.csv
-│   │   ├── decision_tree_3.pkl
-│   │   ├── gradient_boosting_3.pkl
-│   │   ├── knn_3.pkl
-│   │   └── random_forest_3.pkl
-│   ├── Model_4
-│   │   ├── bp_data_4.csv
-│   │   ├── decision_tree_4.pkl
-│   │   ├── gradient_boosting_4.pkl
-│   │   ├── knn_4.pkl
-│   │   └── random_forest_4.pkl
+│   │   ├── kf_cv_data.pkl
+│   │   ├── knn.pkl
+│   │   ├── decision_tree.pkl
+│   │   ├── gradient_boosting.pkl
+│   │   └── random_forest.pkl
+│   │   ├── linear_discriminant_analysis.pkl
+│   │   └── logistic_regression.pkl
 │   ├── Tuned_Models
 │   │   ├── rf_rscv_model.pkl
 │   │   └── rf_gscv_model.pkl
-├── notebooks
-│   ├── 1_data_preparation
-│   ├── 2_exploratory_data_analysis
-│   ├── 3_feature_engineering
-│   └── 4_model_training_and_evaluation
-├── references
-├── reports
-│   └── figures
+└── notebooks
+    ├── airline_passenger_satisfaction.ipynb
+    ├── data_preparation.ipynb
+    ├── exploratory_data_analysis.ipynb
+    ├── feature_engineering.ipynb
+    └── model_training_and_evaluation.ipynb
+
 
 ```
 <!-- RESULTS -->
 ## Results
-
+WIP
 
 
 
