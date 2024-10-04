@@ -139,8 +139,14 @@ Airline Passenger Satisfaction Project
 ## Results
 WIP
 
+<!-- REFERENCES -->
+## References
+1.  <a id="ref-learnstatseasy2024"></a>Learn Statistics Easily, Kendall Tau-b vs Spearman: Which Correlation Coefficient Wins?, Learn Statistics Easily, 4 Jan 2024. [Link](https://statisticseasily.com/kendall-tau-b-vs-spearman/#) 
 
+2. <a id="ref-minitab2024"></a> Minitab Support, What are Concordant and Discordant Pairs?, Minitab Support, 2024. [Link](https://support.minitab.com/en-us/minitab/help-and-how-to/statistics/tables/supporting-topics/other-statistics-and-tests/what-are-concordant-and-discordant-pairs/)
 
+3. <a id="ref-turney2023"></a> Shaun Turney, Chi-Square Test of Independence | Formula, Guide and Examples, *Scribbr*, June 22, 2023. [Link](https://www.scribbr.com/statistics/chi-square-test-of-independence/#:~:text=A%20chi%2Dsquare%20test%20of%20independence%20works%20by%20comparing%20the,values%20of%20the%20other%20variable.&text=Example%3A%20Expected%20values%20The%20city,frequencies%20using%20the%20contingency%20table)
+   
 <!-- LICENSE -->
 ## License
 
