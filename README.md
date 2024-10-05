@@ -1,4 +1,4 @@
-<h1 align="center">Airline Passenger Satisfaction Project</h1>
+<h1 align="center">Airline Passenger Satisfaction Project (work-in-progress)</h1>
 
 <div align="center">
   
@@ -85,54 +85,14 @@ Three additional features were created in an attempt to improve predictive perfo
 
 Airline Passenger Satisfaction Project
 ├── Data
-│   ├── Raw
-│   │   ├── train.csv
-│   │   └── test.csv
-│   ├── Preprocessed_1
-│   │   ├── train_preprocessed_1.pkl
-│   │   ├── train_preprocessed_1_dummies.pkl
-│   │   └── test_preprocessed_1.pkl
-│   ├── Feature_Selection
-│   │   └── train_fs.pkl
-│   ├── Feature_Extraction
-│       └── train_oss.pkl
 ├── Images
 │   └── runway_airplane.jpg
 ├── Models
-│   ├── Model_1
-│   │   ├── bm_data.pkl
-│   │   ├── knn.pkl
-│   │   ├── decision_tree.pkl
-│   │   ├── gradient_boosting.pkl
-│   │   ├── random_forest.pkl
-│   │   ├── linear_discriminant_analysis.pkl
-│   │   └── logistic_regression.pkl
-│   ├── Model_2
-│   │   ├── kf_cv_data.pkl
-│   │   ├── knn.pkl
-│   │   ├── decision_tree.pkl
-│   │   ├── gradient_boosting.pkl
-│   │   └── random_forest.pkl
-│   │   ├── linear_discriminant_analysis.pkl
-│   │   └── logistic_regression.pkl
-│   ├── Model_3
-│   │   ├── kf_cv_data.pkl
-│   │   ├── knn.pkl
-│   │   ├── decision_tree.pkl
-│   │   ├── gradient_boosting.pkl
-│   │   └── random_forest.pkl
-│   │   ├── linear_discriminant_analysis.pkl
-│   │   └── logistic_regression.pkl
-│   ├── Tuned_Models
-│   │   ├── rf_rscv_model.pkl
-│   │   └── rf_gscv_model.pkl
-└── notebooks
-    ├── airline_passenger_satisfaction.ipynb
+└── Notebooks
     ├── data_preparation.ipynb
     ├── exploratory_data_analysis.ipynb
     ├── feature_engineering.ipynb
     └── model_training_and_evaluation.ipynb
-
 
 ```
 <!-- RESULTS -->
