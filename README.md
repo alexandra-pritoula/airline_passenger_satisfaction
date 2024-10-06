@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The aim of this project is to determine the main factors affecting airline passenger's satisfaction levels using a customer survey data set. Numerous Machine Learning models were trained, evaluated and compared. The best model was fine-tuned to predict new passenger satisfaction levels. 
+The aim of this project is to determine the main factors affecting airline passenger's satisfaction levels using a customer survey data set. Numerous Machine Learning models were trained, evaluated and compared. The best model will be fine-tuned to predict new passenger satisfaction levels. Note: this project is still a work in progress.
 
 <!-- INSTALLATION AND SETUP -->
 ## Installation and Setup
@@ -65,12 +65,13 @@ The original data set can be found through the following [link](https://www.kagg
 | ***Inflight service*** | Satisfaction level of inflight service | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
 | ***Cleanliness*** | Satisfaction level of Cleanliness | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
 | ***Departure Delay in Minutes*** | Minutes delayed when departure | None |
-| ***Arrival Delay in Minutes*** | Minutes delayed when Arrival | None |
+| ***Arrival Delay in Minutes*** | Minutes delayed when Arrival | Imputed missing values |
 | *Satisfaction* | Airline satisfaction level(Satisfaction, neutral or dissatisfaction) | Converted to categorical and set new ordered categoried as 1<2 |
 
-Other preprocessing included capitalising all column names. Dropping the created NaN values for features with less than 5% missing values. The variable `Departure/Arrival time convenient` had more than the 5% threshold of missing values, so the mode was used to impute its values. Columns `Gender`, `Customer Type`, and `Type of Travel` were One-Hot Encoded. In addition, the data was scaled to improve the machine learning models. 
+Other preprocessing included capitalising all column names, dropping the created NaN values for features with less than 5% missing values. The variable `Departure/Arrival time convenient` had more than the 5% threshold of missing values, so the mode was used to impute its values. Columns `Gender`, `Customer Type`, and `Type of Travel` were One-Hot Encoded. In addition, the data was scaled to improve the machine learning models. The performance of the models were tested on different combinations of these preprocessing steps.
 
-Three additional features were created in an attempt to improve predictive performance. 
+
+Two additional features were created in an attempt to improve predictive performance. 
 
 | FEATURE  | DESCRIPTION | PREPROCESSING |
 | --------- | -------- | -------- |
@@ -101,11 +102,20 @@ WIP
 
 <!-- REFERENCES -->
 ## References
-1.  <a id="ref-learnstatseasy2024"></a>Learn Statistics Easily, Kendall Tau-b vs Spearman: Which Correlation Coefficient Wins?, Learn Statistics Easily, 4 Jan 2024. [Link](https://statisticseasily.com/kendall-tau-b-vs-spearman/#) 
+1.  Learn Statistics Easily, Kendall Tau-b vs Spearman: Which Correlation Coefficient Wins?, Learn Statistics Easily, 4 Jan 2024. [Link](https://statisticseasily.com/kendall-tau-b-vs-spearman/#) 
 
-2. <a id="ref-minitab2024"></a> Minitab Support, What are Concordant and Discordant Pairs?, Minitab Support, 2024. [Link](https://support.minitab.com/en-us/minitab/help-and-how-to/statistics/tables/supporting-topics/other-statistics-and-tests/what-are-concordant-and-discordant-pairs/)
+2. Minitab Support, What are Concordant and Discordant Pairs?, Minitab Support, 2024. [Link](https://support.minitab.com/en-us/minitab/help-and-how-to/statistics/tables/supporting-topics/other-statistics-and-tests/what-are-concordant-and-discordant-pairs/)
 
-3. <a id="ref-turney2023"></a> Shaun Turney, Chi-Square Test of Independence | Formula, Guide and Examples, *Scribbr*, June 22, 2023. [Link](https://www.scribbr.com/statistics/chi-square-test-of-independence/#:~:text=A%20chi%2Dsquare%20test%20of%20independence%20works%20by%20comparing%20the,values%20of%20the%20other%20variable.&text=Example%3A%20Expected%20values%20The%20city,frequencies%20using%20the%20contingency%20table)
+3. Shaun Turney, Chi-Square Test of Independence | Formula, Guide and Examples, *Scribbr*, June 22, 2023. [Link](https://www.scribbr.com/statistics/chi-square-test-of-independence/#:~:text=A%20chi%2Dsquare%20test%20of%20independence%20works%20by%20comparing%20the,values%20of%20the%20other%20variable.&text=Example%3A%20Expected%20values%20The%20city,frequencies%20using%20the%20contingency%20table)
+4. Aurelian Géron, Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow (3rd Edition), O'Reilly Media Inc, 20 January 2023.
+ 
+5. Haldun Akoglu, User's Guide to Correlation Coefficients, *National Library of Medicine*, 7 August 2018. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107969/#:~:text=Cramer's%20V%20is%20an%20alternative,Cramer's%20V%20(Table%202).)
+
+6. Scikit-learn developers, IterativeImputer, *Scikit-Learn*, 2024. [Link](https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html)
+
+7. Kyaw Saw Htoon, A Guide to KNN Imputation, *Medium*, 3 July 2020. [Link](https://medium.com/@kyawsawhtoon/a-guide-to-knn-imputation-95e2dc496e)
+   
+8. Hannah Igboke, Iterative Imputer for Missing values in Machine Learning, *Medium*, 10 June 2024. [Link](https://medium.com/learning-data/iterative-imputer-for-missing-values-in-machine-learning-32bd8b5b697a#:~:text=Statistical%20models%20used%20in%20iterative%20imputation&text=DecisionTreeRegressor%3A%20non%2Dlinear%20regression%20models,no%20need%20for%20feature%20scaling.)
    
 <!-- LICENSE -->
 ## License
