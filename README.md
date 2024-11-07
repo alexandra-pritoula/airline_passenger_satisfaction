@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The aim of this project is to determine the main factors affecting airline passenger's satisfaction levels using a customer survey data set. Numerous Machine Learning models were trained, evaluated and compared. The best model will be fine-tuned to predict new passenger satisfaction levels. Note: this project is still a work in progress.
+The aim of this project is to determine the main factors affecting airline passenger's satisfaction levels using a customer survey data set. Numerous standard machine learning models and neural networks were trained, evaluated and compared. The best model, a deep neural network, has been fine-tuned to predict new passenger satisfaction levels. 
 
 <!-- INSTALLATION AND SETUP -->
 ## Installation and Setup
