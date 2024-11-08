@@ -31,11 +31,12 @@ In order to replicate the results of this project please use the software and de
 
 ### Python Packages Used
 
-  - **General Purpose:** `pickle`
-  - **Data Manipulation:** `pandas`, `numpy`,
-  - **Data Visualisation:** `seaborn`, `matplotlib.pyplot`
-  - **Statistics (scipy.stats):** `chi2_contingency`, `iqr`
-  - **Machine Learning (sklearn):** `model_selection.cross_val_score`, `model_selection.KFold`, `model_selection.train_test_split`, `model_selection.RandomizedSearchCV`, `model_selection.GridSearchCV`, `preprocessing.StandardScaler`, `tree.DecisionTreeClassifier`, `neighbors.KNeighborsClassifier`, `ensemble.GradientBoostingClassifier`, `ensemble.RandomForestClassifier`
+  - **General Purpose:** `pickle`, `os`, `itertools`, `pprint`
+  - **Data Manipulation:** `pandas`, `numpy`
+  - **Data Visualisation:** `seaborn`, `matplotlib.pyplot`, `matplotlib.patches.Patch`
+  - **Statistics (scipy.stats):** `chi2_contingency`, `iqr`, `contingency.association`
+  - **Machine Learning (sklearn):** `model_selection.cross_val_score`, `model_selection.KFold`, `model_selection.train_test_split`, `model_selection.RandomizedSearchCV`, `model_selection.GridSearchCV`, `preprocessing.StandardScaler`, `tree.DecisionTreeClassifier`, `neighbors.KNeighborsClassifier`, `ensemble.GradientBoostingClassifier`, `ensemble.RandomForestClassifier`, `confusion_matrix`, `ConfusionMatrixDisplay`, `preprocessing.StandardScaler`, `preprocessing.LabelEncoder`, `model_selection.KFold`, `tree.DecisionTreeClassifier`, `neighbors.KNeighborsClassifier`, `ensemble.GradientBoostingClassifier`, `ensemble.RandomForestClassifier`, `discriminant_analysis.LinearDiscriminantAnalysis`, `linear_model.LogisticRegression`, `metrics.precision_score`, `metrics.recall_score`, `metrics.make_scorer`, `metrics.accuracy_score`, `model_selection.cross_validate`, `impute.IterativeImputer`, `impute.KNNImputer`, `preprocessing.MinMaxScaler`
+  - **Deep Learning (torch):** `nn`, `nn.init`, `nn.BCELoss`, `optim`, `utils.data.TensorDataset`, `utils.data.DataLoader`, `torchmetrics`
 
 <!-- DATA -->
 ## Data Set
