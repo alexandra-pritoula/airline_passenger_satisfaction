@@ -1,4 +1,4 @@
-<h1 align="center">Airline Passenger Satisfaction Project (work-in-progress)</h1>
+<h1 align="center">Airline Passenger Satisfaction Project</h1>
 
 <div align="center">
   
@@ -152,7 +152,14 @@ Airline Passenger Satisfaction Project
 ```
 <!-- RESULTS -->
 ## Results
-WIP
+
+The EDA section of this project showed that premium customers are generally satisfied with the airline company, while economy customers are divided. To ensure customer satisfaction, the company should improve economy-class experiences and services. The top three features driving customer satisfaction are `Online Boarding`, `Inflight Wi-Fi Service`, and `Business Travel` (as seen in the feature importance plot). These services meet customers' expectations. 
+
+Many preprocessing alternatives were tested; the best-performing preprocessed data encoded ‘Non-Applicable’ service categories separately. Numerous machine learning models were implemented, including LDA, KNN, Logistic Regression and Random Forest; however, a Neural Network implemented using PyTorch and manually hyper-tuned achieved the best results.  
+
+The final model was trained with one hundred epochs, and its loss and accuracy curves depicted good model performance and stability. The validation accuracy of this model was 0.96733.  The final model's predictions achieved an accuracy score of 0.96724, a precision of 0.97506, and a recall of 0.94966, which is very close to those on the validation set. The consistent results confirm that the model is stable and performs well on new data. The AUC score under the ROC curve was 0.96533, a very high result. 
+
+The extensive preprocessing and hyperparameter tuning did not substantially improve the results compared to the first random forest base model, which had an accuracy of  0.962754, a precision of 0.955711, and a recall of 0.979645. Given the base model's already high accuracy and precision, one has to wonder whether the extremely time-consuming effort would be financially worthwhile.
 
 <!-- REFERENCES -->
 ## References
