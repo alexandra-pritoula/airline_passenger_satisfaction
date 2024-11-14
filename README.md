@@ -76,8 +76,8 @@ Two additional features were created in an attempt to improve predictive perform
 
 | FEATURE  | DESCRIPTION | PREPROCESSING |
 | --------- | -------- | -------- |
-| ***Overall Service Satisfaction*** | The mean of the service related features for each passenger | Rounded |
-| ***Premium Service*** | A variable indicating whether the overall service was premium | Categorised `Overall Service Satisfaction` into 2 groups, `1` and `2`  |
+| ***Overall Service Satisfaction*** | The mean of the service-related features for each passenger | Rounded |
+| ***Premium Service*** | A variable indicating whether the overall service was premium | Categorised `Overall Service Satisfaction` into two groups, `1` and `2`  |
 
 
 <!-- CODE STRUCTURE -->
