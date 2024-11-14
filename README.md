@@ -41,7 +41,7 @@ In order to replicate the results of this project please use the software and de
 <!-- DATA -->
 ## Data Set
 
-The original data set can be found through the following [link](https://www.kaggle.com/datasets/johndddddd/customer-satisfaction). However, it was downloaded from this [site](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data), where it was cleaned and preprocessed for classification. Further preprocessing has been carried out in this project to optimise machine learning methods. 
+The original data set can be found through the following [link](https://www.kaggle.com/datasets/johndddddd/customer-satisfaction). However, it has been downloaded from this [site](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data), where it was cleaned and preprocessed for classification. Further preprocessing has been carried out in this project to optimise machine learning methods. 
 
 | FEATURE  | DESCRIPTION | PREPROCESSING |
 | --------- | -------- | -------- |
