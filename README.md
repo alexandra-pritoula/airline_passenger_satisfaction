@@ -22,7 +22,7 @@ The aim of this project is to determine the main factors affecting airline passe
 <!-- INSTALLATION AND SETUP -->
 ## Installation and Setup
 
-In order to replicate the results of this project please use the software and dependencies presented below:
+To replicate the results of this project, please use the software and dependencies presented below:
 
 ### Codes and Resources Used
 
@@ -41,35 +41,35 @@ In order to replicate the results of this project please use the software and de
 <!-- DATA -->
 ## Data Set
 
-The original data set can be found through the following [link](https://www.kaggle.com/datasets/johndddddd/customer-satisfaction). However, it has been downloaded from this [site](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data), where it was cleaned and preprocessed for classification. Further preprocessing has been carried out in this project to optimise machine learning methods. 
+The original data set can be found through the following [link](https://www.kaggle.com/datasets/johndddddd/customer-satisfaction). However, it has been downloaded from this [site](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data), where it was cleaned and preprocessed for classification. Additional preprocessing has been done in this project to optimise machine learning methods. 
 
 | FEATURE  | DESCRIPTION | PREPROCESSING |
 | --------- | -------- | -------- |
 | ***Gender*** | Gender of the passengers (Female, Male) | Converted to categorical |
 | ***Customer Type*** | The customer type (Loyal customer, disloyal customer) | Capitalised and converted to categorical |
 | ***Age*** | The actual age of the passengers | None |
-| ***Type of Travel*** | Purpose of the flight of the passengers (Personal Travel, Business Travel) | Capitalised and converted to categorical |
-| ***Class*** | Travel class in the plane of the passengers (Business, Eco, Eco Plus) | Converted to categorical and set new ordered categoried as 1<2<3 | 
+| ***Type of Travel*** | Purpose of the flight of the passengers (Personal Travel, Business Travel) | Capitalised and converted to categorical|
+| ***Class*** | Travel class in the plane of the passengers (Business, Eco, Eco Plus) | Converted to categorical and set new ordered categories as 1<2<3 | 
 | ***Flight distance*** | The flight distance of this journey | None |
-| ***Inflight wifi service*** | Satisfaction level of the inflight wifi service (0:Not Applicable;1-5) | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created|
-| ***Departure/Arrival time convenient*** | Satisfaction level of Departure/Arrival time convenient | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created, imputed missing values using the mode|
-| ***Ease of Online booking*** | Satisfaction level of online booking | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***Gate location*** | Satisfaction level of Gate location | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***Food and drink*** | Satisfaction level of Food and drink | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***Online boarding*** | Satisfaction level of online boarding | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***Seat comfort*** | Satisfaction level of Seat comfort | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***Inflight entertainment*** | Satisfaction level of inflight entertainment | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***On-board service*** | Satisfaction level of On-board service | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***Leg room service*** | Satisfaction level of Leg room service | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***Baggage handling*** | Satisfaction level of baggage handling | Converted to categorical and set new ordered categoried as 1<2<3<4<5 |
-| ***Check-in service*** | Satisfaction level of Check-in service | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***Inflight service*** | Satisfaction level of inflight service | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
-| ***Cleanliness*** | Satisfaction level of Cleanliness | Converted to categorical and set new ordered categoried as 1<2<3<4<5, NaN'a were created |
+| ***Inflight wifi service*** | Satisfaction level of the inflight wifi service (0:Not Applicable;1-5) | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created|
+| ***Departure/Arrival time convenient*** | Satisfaction level of Departure/Arrival time convenient | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created, imputed missing values using the mode|
+| ***Ease of Online booking*** | Satisfaction level of online booking | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***Gate location*** | Satisfaction level of Gate location | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***Food and drink*** | Satisfaction level of Food and drink | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***Online boarding*** | Satisfaction level of online boarding | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***Seat comfort*** | Satisfaction level of Seat comfort | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***Inflight entertainment*** | Satisfaction level of inflight entertainment | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***On-board service*** | Satisfaction level of On-board service | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***Leg room service*** | Satisfaction level of Leg room service | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***Baggage handling*** | Satisfaction level of baggage handling | Converted to categorical and set new ordered categories as 1<2<3<4<5 |
+| ***Check-in service*** | Satisfaction level of Check-in service | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***Inflight service*** | Satisfaction level of inflight service | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
+| ***Cleanliness*** | Satisfaction level of Cleanliness | Converted to categorical and set new ordered categories as 1<2<3<4<5, NaN'a were created |
 | ***Departure Delay in Minutes*** | Minutes delayed when departure | None |
 | ***Arrival Delay in Minutes*** | Minutes delayed when Arrival | Imputed missing values |
-| *Satisfaction* | Airline satisfaction level(Satisfaction, neutral or dissatisfaction) | Converted to categorical and set new ordered categoried as 1<2 |
+| *Satisfaction* | Airline satisfaction level(Satisfaction, neutral or dissatisfaction) | Converted to categorical and set new ordered categories as 1<2 |
 
-Other preprocessing included capitalising all column names, dropping the created NaN values for features with less than 5% missing values. The variable `Departure/Arrival time convenient` had more than the 5% threshold of missing values, so the mode was used to impute its values. Columns `Gender`, `Customer Type`, and `Type of Travel` were One-Hot Encoded. In addition, the data was scaled to improve the machine learning models. The performance of the models were tested on different combinations of these preprocessing steps.
+Other preprocessing included capitalising all column names and dropping the created NaN values for features with less than 5% missing values. The variable `Departure/Arrival time convenient` had more than the 5% threshold of missing values, so the mode was used to impute its values. Columns `Gender`, `Customer Type`, and `Type of Travel` were One-Hot Encoded. In addition, the data was scaled to improve the machine-learning models. The performance of the models was tested using different combinations of these preprocessing steps.
 
 
 Two additional features were created in an attempt to improve predictive performance. 
