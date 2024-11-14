@@ -170,6 +170,12 @@ WIP
 7. Kyaw Saw Htoon, A Guide to KNN Imputation, *Medium*, 3 July 2020. [Link](https://medium.com/@kyawsawhtoon/a-guide-to-knn-imputation-95e2dc496e)
    
 8. Hannah Igboke, Iterative Imputer for Missing values in Machine Learning, *Medium*, 10 June 2024. [Link](https://medium.com/learning-data/iterative-imputer-for-missing-values-in-machine-learning-32bd8b5b697a#:~:text=Statistical%20models%20used%20in%20iterative%20imputation&text=DecisionTreeRegressor%3A%20non%2Dlinear%20regression%20models,no%20need%20for%20feature%20scaling.)
+
+10. James Gareth, Daniela Witten, Trevor Hastie and Robert Tibshirani, An Introduction to Statistical Learning, Springer, New York, 2015.
+
+11. PyTorch Contributors, BCEWithLogitsLoss, Pytorch, 2023, [(link)](https://pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html).
+
+12. Pytorch Contributors, SGD, Pytorch, 2023, [(link)](https://pytorch.org/docs/stable/generated/torch.optim.SGD.html).
    
 <!-- LICENSE -->
 ## License
