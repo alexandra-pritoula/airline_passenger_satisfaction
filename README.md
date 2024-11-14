@@ -113,6 +113,35 @@ Airline Passenger Satisfaction Project
 │   └── pairplot.png
 ├── LICENSE.txt
 ├── Models
+│   ├── Imputation_Model_1
+│   │   └── results_iterative_model.pkl
+│   ├── Imputation_Model_2
+│   │   └── results_knn_model.pkl
+│   ├── Imputation_Model_3
+│   │   └── results_dropna_mode_model.pkl
+│   ├── Imputation_Model_4
+│   │   ├── model_rf.pkl
+│   │   └── results_nonapplicable_mode_model.pkl
+│   ├── Model_fe
+│   │   └── results_fe_model.pkl
+│   ├── Model_fs
+│   │   └── results_fs_model.pkl
+│   └── Neural_Nets
+│   │   ├── best_model_1.pth
+│   │   ⋮
+│   │   ├── best_model_70.pth
+│   │   ├── test_losses_1.pkl
+│   │   ⋮
+│   │   ├── test_losses_70.pkl
+│   │   ├── train_accuracies_1.pkl
+│   │   ⋮
+│   │   ├── train_accuracies_70.pkl
+│   │   ├── training_losses_1.pkl
+│   │   ⋮
+│   │   ├── training_losses_70.pkl
+│   │   ├── validation_accuracies_1.pkl
+│   │   ⋮
+│   │   └── validation_accuracies_70.pkl
 ├── Notebooks
 │   ├── data_preparation.ipynb
 │   ├── exploratory_data_analysis.ipynb
