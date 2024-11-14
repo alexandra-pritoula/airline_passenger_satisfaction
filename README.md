@@ -87,14 +87,38 @@ Two additional features were created in an attempt to improve predictive perform
 
 Airline Passenger Satisfaction Project
 ├── Data
+│   ├── Feature_Extraction
+│   │   └── train_oss.pkl
+│   ├── Feature_Selection
+│   │   └── train_fs.pkl
+│   ├── Predictions
+│   │   └── prediction.csv
+│   ├── Preprocessed
+│   │   ├── non_applicable_imputed.pkl
+│   │   ├── test_preprocessed.pkl
+│   │   ├── train_imputed_iterative.pkl
+│   │   ├── train_imputed_knn.pkl
+│   │   ├── train_preprocessed_2.pkl
+│   │   ├── train_preprocessed_3.pkl
+│   │   ├── train_preprocessed_dropna_mode.pkl
+│   │   └── train_preprocessed.pkl
+│   ├── Raw
+│   │   ├── test.csv
+│   │   └── train.csv
 ├── Images
-│   └── runway_airplane.jpg
+│   ├── runway_airplane.jpg
+│   ├── correlation_heatmap.png
+│   ├── count_plot.png
+│   ├── count_plot_2.png
+│   └── pairplot.png
+├── LICENSE.txt
 ├── Models
-└── Notebooks
-    ├── data_preparation.ipynb
-    ├── exploratory_data_analysis.ipynb
-    ├── feature_engineering.ipynb
-    └── model_training_and_evaluation.ipynb
+├── Notebooks
+│   ├── data_preparation.ipynb
+│   ├── exploratory_data_analysis.ipynb
+│   ├── feature_engineering.ipynb
+│   └── model_training_and_evaluation.ipynb
+└── README.md
 
 ```
 <!-- RESULTS -->
