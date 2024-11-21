@@ -156,7 +156,7 @@ Airline Passenger Satisfaction Project
 <!-- RESULTS -->
 ## Results
 
-The EDA section of this project showed that premium customers are generally satisfied with the airline company, while economy customers are divided. To ensure customer satisfaction, the company should improve economy-class experiences and services. The top three features driving customer satisfaction are `Online Boarding`, `Inflight Wi-Fi Service`, and `Business Travel` (as seen in the feature importance plot). These services meet customers' expectations. 
+The EDA section of this project showed that premium customers are generally satisfied with the airline company, while economy customers are divided. To ensure customer satisfaction, the company should improve economy-class experiences and services. The top three features driving customer satisfaction are `Online Boarding`, `Inflight Wi-Fi Service`, and `Personal Travel` (as seen in the feature importance plot). These services meet customers' expectations. 
 
 The original data set has been processed in several ways and compared to find the one leading to the best performance. The best-performing preprocessed data encoded ‘Non-Applicable’ service as a separate category. Numerous machine learning models were then implemented, including LDA, KNN, Logistic Regression and Random Forest; however, a Neural Network implemented using PyTorch and manually hyper-tuned achieved the best results.  
 
