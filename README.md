@@ -92,7 +92,8 @@ Airline Passenger Satisfaction Project
 │   ├── Feature_Selection
 │   │   └── train_fs.pkl
 │   ├── Predictions
-│   │   └── prediction.csv
+│   │   ├── prediction.csv
+│   │   └── labels.csv
 │   ├── Preprocessed
 │   │   ├── non_applicable_imputed.pkl
 │   │   ├── test_preprocessed.pkl
@@ -106,11 +107,12 @@ Airline Passenger Satisfaction Project
 │   │   ├── test.csv
 │   │   └── train.csv
 ├── Images
-│   ├── runway_airplane.jpg
+│   ├── confusion_matrix.png
 │   ├── correlation_heatmap.png
-│   ├── count_plot.png
 │   ├── count_plot_2.png
-│   └── pairplot.png
+│   ├── count_plot.png
+│   ├── pairplot.png
+│   └── runway_airplane.jpg
 ├── LICENSE.txt
 ├── Models
 │   ├── Imputation_Model_1
@@ -146,6 +148,7 @@ Airline Passenger Satisfaction Project
 │   ├── data_preparation.ipynb
 │   ├── exploratory_data_analysis.ipynb
 │   ├── feature_engineering.ipynb
+│   ├── final_model_analysis_summary.ipynb
 │   └── model_training_and_evaluation.ipynb
 └── README.md
 
