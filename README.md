@@ -162,7 +162,7 @@ The original data set has been processed in several ways and compared to find th
 
 The final model was trained with one hundred epochs, and its loss and accuracy curves depicted good model performance and stability. The validation accuracy of this model was 0.96636.  The final model's predictions on the test data set achieved an accuracy score of 0.96705, a precision of 0.97436, and a recall of 0.94993, which is very close to those on the validation set. The consistent results confirm that the model is stable and performs well on new data. The AUC score under the ROC curve was 0.96518, a very high result. 
 
-The extensive preprocessing and hyperparameter tuning did not substantially improve the results compared to the first random forest base model, which had an accuracy of  0.964429, a precision of 0.957307, and a recall of 0.980958. Given the base model's already high accuracy and precision, one has to wonder whether the extremely time-consuming effort would have been financially interesting to the airline. 
+The extensive preprocessing and hyperparameter tuning did not substantially improve the results compared to the first random forest base model, which had an accuracy of  0.964429, a precision of 0.957307, and a recall of 0.980958. Further efforts could continue indefinitely; for example, removing outliers or other types of feature engineering could be tested. Given the base model's already high accuracy and precision, one has to wonder whether the extremely time-consuming effort would have been financially interesting to the airline.
 
 <!-- REFERENCES -->
 ## References
