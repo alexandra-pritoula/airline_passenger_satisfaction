@@ -38,14 +38,6 @@ To replicate the results of this project, please use the software and dependenci
   - **Machine Learning (sklearn):** `model_selection.cross_val_score`, `model_selection.KFold`, `model_selection.train_test_split`, `model_selection.RandomizedSearchCV`, `model_selection.GridSearchCV`, `model_selection.cross_validate`, `tree.DecisionTreeClassifier`, `neighbors.KNeighborsClassifier`, `ensemble.GradientBoostingClassifier`, `ensemble.RandomForestClassifier`, `confusion_matrix`, `ConfusionMatrixDisplay`, `preprocessing.StandardScaler`, `preprocessing.LabelEncoder`, `preprocessing.MinMaxScaler`, `discriminant_analysis.LinearDiscriminantAnalysis`, `linear_model.LogisticRegression`, `metrics.precision_score`, `metrics.recall_score`, `metrics.make_scorer`, `metrics.accuracy_score`, `metrics.roc_curve`, `metrics.auc`, `metrics.roc_auc_score`, `impute.IterativeImputer`, `impute.KNNImputer`
   - **Deep Learning (torch):** `nn`, `nn.init`, `nn.BCELoss`, `optim`, `utils.data.TensorDataset`, `utils.data.DataLoader`, `torchmetrics`
 
-### How to Open Notebooks (Sequence)
-
-1. data_preparation.ipynb - to see the data preprocessing
-2. exploratory_data_analysis.ipynb - to see the EDA
-3. feature_engineering.ipynb - to see the feature engineering attempted
-4. model_training_and_evaluation.ipynb - to see the full implementation of the project
-5. final_model_analysis_summary.ipynb - to see a summary of the final results, model, performance and predictions
-
 <!-- DATA -->
 ## Data Set
 
@@ -161,6 +153,15 @@ Airline Passenger Satisfaction Project
 └── README.md
 
 ```
+
+### How to Open Notebooks (Sequence)
+
+1. data_preparation.ipynb - to see the data preprocessing
+2. exploratory_data_analysis.ipynb - to see the EDA
+3. feature_engineering.ipynb - to see the feature engineering attempted
+4. model_training_and_evaluation.ipynb - to see the full implementation of the project
+5. final_model_analysis_summary.ipynb - to see a summary of the final results, model, performance and predictions
+
 <!-- RESULTS -->
 ## Results
 
