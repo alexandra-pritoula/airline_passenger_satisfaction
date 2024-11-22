@@ -107,11 +107,18 @@ Airline Passenger Satisfaction Project
 │   │   ├── test.csv
 │   │   └── train.csv
 ├── Images
+│   ├── accuracies.png
 │   ├── confusion_matrix.png
 │   ├── correlation_heatmap.png
 │   ├── count_plot_2.png
 │   ├── count_plot.png
+│   ├── feature_importance_plot.png
+│   ├── losses.png
+│   ├── machine_learningmodels_results.png
+│   ├── model_15.png
+│   ├── model_performance_plot.png
 │   ├── pairplot.png
+│   ├── ROC.png
 │   └── runway_airplane.jpg
 ├── LICENSE.txt
 ├── Models
@@ -165,13 +172,13 @@ Airline Passenger Satisfaction Project
 <!-- RESULTS -->
 ## Results
 
-The EDA section of this project showed that premium customers are generally satisfied with the airline company, while economy customers are divided. To ensure customer satisfaction, the company should improve economy-class experiences and services. The top three features driving customer satisfaction are `Online Boarding`, `Inflight Wi-Fi Service`, and `Personal Travel` (as seen in the feature importance plot). 
+The EDA section of this project showed that premium customers are generally satisfied with the airline company, while economy customers are divided. To ensure customer satisfaction, the company should improve economy-class experiences and services. The top three features driving customer satisfaction are `Online Boarding`, `Inflight Wi-Fi Service`, and `Class` (as seen in the feature importance plot).
 
-The original data set has been processed in several ways and compared to find the one leading to the best performance. The best-performing preprocessed data encodes ‘Non-Applicable’ services as a separate category. Numerous machine learning models were then implemented, including LDA, KNN, Logistic Regression and Random Forest; however, a Neural Network implemented using PyTorch and manually hyper-tuned achieved the best results.  
+The original data set has been processed in several ways and compared to find the settings leading to the best performance. The best-performing preprocessed data encodes ‘Non-Applicable’ services as a separate category. Numerous machine learning models were then implemented, including LDA, KNN, Logistic Regression and Random Forest; however, a Neural Network implemented using PyTorch and manually hyper-tuned achieved the best results.
 
-The final model was trained with one hundred epochs, and its loss and accuracy curves depicted good model performance and stability. The validation accuracy of this model was 0.96636.  The final model's predictions on the test data set achieved an accuracy score of 0.96705, a precision of 0.97436, and a recall of 0.94993, which is very close to those on the validation set. The consistent results confirm that the model is stable and performs well on new data. The AUC score under the ROC curve was 0.96518, a very high result. 
+The final model was trained with one hundred epochs, and its loss and accuracy curves depicted good model performance and stability. The validation accuracy of this model was 0.96704. The final model's predictions on the test data set achieved an accuracy score of 0.9667, a precision of 0.97675, and a recall of 0.94668, which is very close to those on the validation set. The consistent results confirm that the model is stable and performs well on new data. The AUC score under the ROC curve was 0.96452, a very high result.
 
-The extensive preprocessing and hyperparameter tuning did not substantially improve the results compared to the first random forest base model, which had an accuracy of  0.964429, a precision of 0.957307, and a recall of 0.980958. Further efforts could continue indefinitely; for example, removing outliers or other types of feature engineering could be tested. Given the base model's already high accuracy and precision, one has to wonder whether the extremely time-consuming effort would have been financially interesting to the airline.
+The extensive preprocessing and hyperparameter tuning did not substantially improve the results compared to the first random forest base model, which had an accuracy of 0.964429, a precision of 0.957307, and a recall of 0.980958. Further efforts could continue indefinitely; for example, removing outliers or other types of feature engineering could be tested. Given the base model's already high accuracy and precision, one has to wonder whether the time-consuming effort would have been financially interesting to the airline.
 
 <!-- REFERENCES -->
 ## References
@@ -190,11 +197,11 @@ The extensive preprocessing and hyperparameter tuning did not substantially impr
    
 8. Hannah Igboke, Iterative Imputer for Missing values in Machine Learning, *Medium*, 10 June 2024. [Link](https://medium.com/learning-data/iterative-imputer-for-missing-values-in-machine-learning-32bd8b5b697a#:~:text=Statistical%20models%20used%20in%20iterative%20imputation&text=DecisionTreeRegressor%3A%20non%2Dlinear%20regression%20models,no%20need%20for%20feature%20scaling.)
 
-10. James Gareth, Daniela Witten, Trevor Hastie and Robert Tibshirani, An Introduction to Statistical Learning, Springer, New York, 2015.
+9. James Gareth, Daniela Witten, Trevor Hastie and Robert Tibshirani, An Introduction to Statistical Learning, Springer, New York, 2015.
 
-11. PyTorch Contributors, BCEWithLogitsLoss, Pytorch, 2023, [(link)](https://pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html).
+10. PyTorch Contributors, BCEWithLogitsLoss, Pytorch, 2023, [Link](https://pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html).
 
-12. Pytorch Contributors, SGD, Pytorch, 2023, [(link)](https://pytorch.org/docs/stable/generated/torch.optim.SGD.html).
+11. Pytorch Contributors, SGD, Pytorch, 2023, [Link](https://pytorch.org/docs/stable/generated/torch.optim.SGD.html).
    
 <!-- LICENSE -->
 ## License
